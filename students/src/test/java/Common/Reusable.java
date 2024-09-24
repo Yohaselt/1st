@@ -20,10 +20,7 @@ import org.testng.annotations.AfterMethod;
 
 public class Reusable {
 	public WebDriver driver;
-	@Test
-  public void f() throws InterruptedException, IOException {
-		
-  }
+	
   @BeforeMethod
   @Parameters({"browsers","website"})
   public void beforeMethod(String browser,String website) throws InterruptedException {

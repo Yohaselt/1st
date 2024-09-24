@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  functions</title>
+<title>TestNG:  functionsforother</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>functions</h2><table border='1' align="center">
+<h2 align='center'>functionsforother</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/0/3</td>
 </tr><tr>
 <td>Started on:</td><td>Mon Sep 23 19:06:26 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (159 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (37 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,38 +76,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='pro.training.tech.students.Searches.beforeMethod()'><b>beforeMethod</b><br>Test class: pro.training.tech.students.Searches<br>Parameters: Chrome, https://www.amazon.com</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+<td title='pro.training.tech.students.Searches.beforeMethod()'><b>beforeMethod</b><br>Test class: pro.training.tech.students.Searches<br>Parameters: Edge, https://www.amazon.com</td>
+<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: driver.version: ChromeDriver
+Driver info: driver.version: EdgeDriver
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
 	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at Common.Reusable.beforeMethod(Reusable.java:29)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Common.Reusable.beforeMethod(Reusable.java:36)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
 	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 36 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace738677855", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace738677855'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+	... 37 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2090991873", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2090991873'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: driver.version: ChromeDriver
+Driver info: driver.version: EdgeDriver
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
 	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at Common.Reusable.beforeMethod(Reusable.java:29)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Common.Reusable.beforeMethod(Reusable.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -138,47 +140,49 @@ Driver info: driver.version: ChromeDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
 	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 36 more
+	... 37 more
 </pre></div></td>
 <td>0</td>
-<td>pro.training.tech.students.Searches@303cf2ba</td></tr>
+<td>pro.training.tech.students.Searches@4b8d604b</td></tr>
 <tr>
-<td title='pro.training.tech.students.ChromeandEdge.beforeMethod()'><b>beforeMethod</b><br>Test class: pro.training.tech.students.ChromeandEdge<br>Parameters: Chrome, https://www.amazon.com</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+<td title='pro.training.tech.students.ChromeandEdge.beforeMethod()'><b>beforeMethod</b><br>Test class: pro.training.tech.students.ChromeandEdge<br>Parameters: Edge, https://www.amazon.com</td>
+<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: driver.version: ChromeDriver
+Driver info: driver.version: EdgeDriver
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
 	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at Common.Reusable.beforeMethod(Reusable.java:29)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Common.Reusable.beforeMethod(Reusable.java:36)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
 	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 36 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1620823990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1620823990'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+	... 37 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace573926093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace573926093'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: driver.version: ChromeDriver
+Driver info: driver.version: EdgeDriver
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
 	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at Common.Reusable.beforeMethod(Reusable.java:29)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Common.Reusable.beforeMethod(Reusable.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -209,14 +213,14 @@ Driver info: driver.version: ChromeDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
 	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 36 more
+	... 37 more
 </pre></div></td>
 <td>0</td>
-<td>pro.training.tech.students.ChromeandEdge@1033576a</td></tr>
+<td>pro.training.tech.students.ChromeandEdge@5fb759d6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -230,12 +234,12 @@ Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\sy
 <td title='pro.training.tech.students.Searches.afterMethod()'><b>afterMethod</b><br>Test class: pro.training.tech.students.Searches</td>
 <td></td>
 <td>0</td>
-<td>pro.training.tech.students.Searches@303cf2ba</td></tr>
+<td>pro.training.tech.students.Searches@4b8d604b</td></tr>
 <tr>
 <td title='pro.training.tech.students.ChromeandEdge.afterMethod()'><b>afterMethod</b><br>Test class: pro.training.tech.students.ChromeandEdge</td>
 <td></td>
 <td>0</td>
-<td>pro.training.tech.students.ChromeandEdge@1033576a</td></tr>
+<td>pro.training.tech.students.ChromeandEdge@5fb759d6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -246,15 +250,15 @@ Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\sy
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='pro.training.tech.students.Selenium.second()'><b>second</b><br>Test class: pro.training.tech.students.Selenium</td>
-<td></td>
-<td>0</td>
-<td>pro.training.tech.students.Selenium@5ddeb7cb</td></tr>
-<tr>
 <td title='pro.training.tech.students.Selenium.f()'><b>f</b><br>Test class: pro.training.tech.students.Selenium</td>
 <td></td>
 <td>0</td>
-<td>pro.training.tech.students.Selenium@5ddeb7cb</td></tr>
+<td>pro.training.tech.students.Selenium@57bc27f5</td></tr>
+<tr>
+<td title='pro.training.tech.students.Selenium.second()'><b>second</b><br>Test class: pro.training.tech.students.Selenium</td>
+<td></td>
+<td>0</td>
+<td>pro.training.tech.students.Selenium@57bc27f5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -266,12 +270,12 @@ Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\sy
 </tr>
 <tr>
 <td title='pro.training.tech.students.ChromeandEdge.secondmethod()'><b>secondmethod</b><br>Test class: pro.training.tech.students.ChromeandEdge</td>
-<td><div><pre>java.lang.Throwable: Method pro.training.tech.students.ChromeandEdge.secondmethod() on instance pro.training.tech.students.ChromeandEdge@1033576a depends on not successfully finished methods 
-[pro.training.tech.students.ChromeandEdge.f() on instance pro.training.tech.students.ChromeandEdge@1033576a]
+<td><div><pre>java.lang.Throwable: Method pro.training.tech.students.ChromeandEdge.secondmethod() on instance pro.training.tech.students.ChromeandEdge@5fb759d6 depends on not successfully finished methods 
+[pro.training.tech.students.ChromeandEdge.f() on instance pro.training.tech.students.ChromeandEdge@5fb759d6]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1677458155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1677458155'><pre>java.lang.Throwable: Method pro.training.tech.students.ChromeandEdge.secondmethod() on instance pro.training.tech.students.ChromeandEdge@1033576a depends on not successfully finished methods 
-[pro.training.tech.students.ChromeandEdge.f() on instance pro.training.tech.students.ChromeandEdge@1033576a]
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace382627885", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace382627885'><pre>java.lang.Throwable: Method pro.training.tech.students.ChromeandEdge.secondmethod() on instance pro.training.tech.students.ChromeandEdge@5fb759d6 depends on not successfully finished methods 
+[pro.training.tech.students.ChromeandEdge.f() on instance pro.training.tech.students.ChromeandEdge@5fb759d6]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -293,111 +297,42 @@ Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\sy
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>pro.training.tech.students.ChromeandEdge@1033576a</td></tr>
-<tr>
-<td title='pro.training.tech.students.ChromeandEdge.f()'><b>f</b><br>Test class: pro.training.tech.students.ChromeandEdge</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at Common.Reusable.beforeMethod(Reusable.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
-	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
-	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 36 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace124058278", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace124058278'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at Common.Reusable.beforeMethod(Reusable.java:29)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
-	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
-	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 36 more
-</pre></div></td>
-<td>0</td>
-<td>pro.training.tech.students.ChromeandEdge@1033576a</td></tr>
+<td>pro.training.tech.students.ChromeandEdge@5fb759d6</td></tr>
 <tr>
 <td title='pro.training.tech.students.Searches.f()'><b>f</b><br>Test class: pro.training.tech.students.Searches</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: driver.version: ChromeDriver
+Driver info: driver.version: EdgeDriver
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
 	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at Common.Reusable.beforeMethod(Reusable.java:29)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Common.Reusable.beforeMethod(Reusable.java:36)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
 	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 36 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace124734309", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace124734309'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+	... 37 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace782689036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace782689036'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: driver.version: ChromeDriver
+Driver info: driver.version: EdgeDriver
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
 	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at Common.Reusable.beforeMethod(Reusable.java:29)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Common.Reusable.beforeMethod(Reusable.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -428,14 +363,87 @@ Driver info: driver.version: ChromeDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\chromedriver.exe
+Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
 	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
 	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
 	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 36 more
+	... 37 more
 </pre></div></td>
 <td>0</td>
-<td>pro.training.tech.students.Searches@303cf2ba</td></tr>
+<td>pro.training.tech.students.Searches@4b8d604b</td></tr>
+<tr>
+<td title='pro.training.tech.students.ChromeandEdge.f()'><b>f</b><br>Test class: pro.training.tech.students.ChromeandEdge</td>
+<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Common.Reusable.beforeMethod(Reusable.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
+	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
+	... 37 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace534666530", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace534666530'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Common.Reusable.beforeMethod(Reusable.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\syoha\eclipse-workspace\students\Drivers\msedgedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
+	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
+	... 37 more
+</pre></div></td>
+<td>0</td>
+<td>pro.training.tech.students.ChromeandEdge@5fb759d6</td></tr>
 </table><p>
 </body>
 </html>
